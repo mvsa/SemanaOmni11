@@ -1,0 +1,28 @@
+npm install
+install nodemon -D
+
+//const params = request.query - retorna todos os parametros query enviados na requisição = ?name='teste'
+//const params = request.params - retorna todos os route params  enviados na requisição = /:id
+                //request.body
+
+Driver = Select * from table
+Query Builder = table('users').select('*').where()   (é melhor pois caso eu mude de banco n preciso mudar query)
+Query Builder Knex{
+    npm install Knex
+    npm install sqlite3
+    npx knex init
+
+    npx knex migrate:make create_ongs
+    npx knex migrate:latest
+    npx knex migrate:rollback
+    npx knex migrate:status
+}
+
+
+//o Id da ong vai ser string, pois será um id customizado
+//pois deixar numero autoincremental torna facil descobrir outros
+//ids
+
+
+npx serve para executar um pacote ao inves de instalar
+pacote crypto ja vem no node
