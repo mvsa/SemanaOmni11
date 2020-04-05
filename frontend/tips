@@ -1,0 +1,27 @@
+npm start
+
+
+//props.children pega os valores internos de uma tag
+//props.valor pega o atributo passado na tag
+
+ver settings.json
+
+div ou section.form  - cria  a div com essa classe
+
+google fonts
+
+material icons / font awesome / feather icons
+npm install react-icons
+
+ctrl espaço dentro da desestruturação
+
+margin auto mais max width para centralizar em tela
+
+jogar todos elementos na tela e depois estilizar
+
+inline block quando quiser mexer no text aling, heigh, widt, e 
+se quiser encostar em outros elementos
+
+npm install react-router-dom
+
+style={{}} - 1 chave to incluindo js, segunda chave to incliuindo obj
