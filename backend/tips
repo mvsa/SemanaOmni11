@@ -26,3 +26,5 @@ Query Builder Knex{
 
 npx serve para executar um pacote ao inves de instalar
 pacote crypto ja vem no node
+
+npm install axios
