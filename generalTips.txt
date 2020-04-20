@@ -1,0 +1,21 @@
+expo{
+    npm install -g expo-cli
+    expo -h
+    expo init nomeprojeto
+    cd
+    npm start 
+    (npm run android/ios web)
+}
+
+react-navigation for routes (lib)
+npm install @react-navigation/native
+
+se tiver usando expo:
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+navegação por
+abas (ifood)
+drawer(aba lateral)
+botões(links que vao pra outras paginas) (stacknavigator)
+
+npm install @react-navigation/stack
