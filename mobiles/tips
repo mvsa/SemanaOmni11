@@ -1,0 +1,84 @@
+React native n tem mesma tag que temos no html
+as tags n possuem especializações
+
+Em outras palavras podemos usar um tipo de div para todos elementos
+visto que em html temos footer, section, span, h1, p
+
+em react native temos:
+<View></View> pode ser usada pra descrever, divs, headers, footers, qlqr
+container
+
+<Text></Text> para qlqr tipo de texto
+
+
+estilização não temos class names, ids para futuras referencias
+
+nos passamos uma tag style que recebe objeto com estilização:
+//podemos separar a estruta e os estilos em arqvuiso diferentes
+
+-------
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Live reloading. sdfConexão pela rede</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1, // ocupa toda tela
+    backgroundColor: '#7153',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+
+
+---------
+css
+
+todos elementos do react native ja vem display:flex por padrão
+e por padrão estão sempre um abaixo do outro (flex column)
+n existe block, inline
+css camel cased
+valores q n sejam numeros tem q ter aspas  por volta,
+
+
+--------------------
+
+
+
+Não existem heranças de estilo
+para cada elemento deve existir uma tag style propria, estilização do componente pai não
+afeta componente filho. Cada elemento tem estilização propria
+
+splash image - imagem que aparece ao abrir App
+
+
+  <AppStack.Navigator screenOptions={{headerShown : false}}>
+  remove o header padrão do react native
+
+  importar so logo.png sem o @2x, pq ele escolhe o melhor tamanho de imagem dependendo do dispositivo
+
+
+
+  expo install expo-constants
+  paddingTop: Constants.statusBarHeight + 20,  Pega constantes/informações fixas de cada projeto
+  nesse estou pegando a constante referente tamanho  da status bar e aplicando  + 20 pixels
+  pra n ficar colado em cima
+
+  ELEMeNTO button do react-nativa ja vem com estilizações referente a androi e ios
+  touchableOpacity, retorna qlqr coisa clicavel que ao ser clicada diminui opacidade
+
+  expo ja vem com pacote de icones
+
+  sempre que for construir uma lista coloca FlatList no container geral dela
+
+  ao retornar JSX uso parentesis e não chave em uma arrow function
+
+  ;;;;
+  onPress={()=>{}}> faz nd
