@@ -77,8 +77,26 @@ splash image - imagem que aparece ao abrir App
   expo ja vem com pacote de icones
 
   sempre que for construir uma lista coloca FlatList no container geral dela
+  data={[1,2]} para mocar
+
 
   ao retornar JSX uso parentesis e não chave em uma arrow function
 
   ;;;;
   onPress={()=>{}}> faz nd
+
+
+  expo install expo-mail-composer
+
+
+  deeplinking existem em todos os dipositivos moveis
+  é uma referencia de endereço de um aplicativo no celular
+  importar Linking do reactnative
+   Linking.openURL()
+
+
+uso o axios aqui tb
+
+npm install intl  -- questão das padronizações de moeda
+ onEndReachedThreshold={0.2} qts por cento proximo ao fim da lista
+ o usuario deve estar para que carregue novos itens
