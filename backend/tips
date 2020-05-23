@@ -28,3 +28,19 @@ npx serve para executar um pacote ao inves de instalar
 pacote crypto ja vem no node
 
 npm install axios
+
+--------
+valdações:    joi(validação para JS)
+celebrate integra joi com express
+
+npm install celebrate
+
+{usado no arquivo route / indexjs}
+-no routes, posso usar mais de uma valdação (juntar diferentes, separando por virgula)
+-validação em rotas em que algum paramentro/informação
+venha do usuário
+
+evitar erros 500, pois reflete que a aplicação nao soube como se comportar:
+importar erros no index.js do server
+
+npm install jest
