@@ -44,3 +44,5 @@ evitar erros 500, pois reflete que a aplicação nao soube como se comportar:
 importar erros no index.js do server
 
 npm install jest
+npx jest --init
+npm test
