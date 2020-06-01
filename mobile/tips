@@ -66,6 +66,33 @@ splash image - imagem que aparece ao abrir App
 
 
 
+  ---
+
+expo{
+    npm install -g expo-cli
+    expo -h
+    expo init nomeprojeto
+    cd
+    npm start 
+    (npm run android/ios web)
+}
+
+react-navigation for routes (lib)
+npm install @react-navigation/native
+
+se tiver usando expo:
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+navegação por
+abas (ifood)
+drawer(aba lateral)
+botões(links que vao pra outras paginas) (stacknavigator)
+
+npm install @react-navigation/stack
+
+-----
+
+
   expo install expo-constants
   paddingTop: Constants.statusBarHeight + 20,  Pega constantes/informações fixas de cada projeto
   nesse estou pegando a constante referente tamanho  da status bar e aplicando  + 20 pixels
@@ -100,3 +127,4 @@ uso o axios aqui tb
 npm install intl  -- questão das padronizações de moeda
  onEndReachedThreshold={0.2} qts por cento proximo ao fim da lista
  o usuario deve estar para que carregue novos itens
+

@@ -1,21 +1,20 @@
-expo{
-    npm install -g expo-cli
-    expo -h
-    expo init nomeprojeto
-    cd
-    npm start 
-    (npm run android/ios web)
+
+
+----------
+Deploy backend:{
+deploy para testes rapidos/experimental (FOCANDO EM NODE(tipo uma api)) = Heroku
+aplicação de pequeno/medio porte(comercial) = digital ocean
+Muito maior = aws, azure, google cloud }
+
+Deploy FrontEnd{
+    Para testes e pequeno/medio porte = netlify  - é especifico para frotend
 }
 
-react-navigation for routes (lib)
-npm install @react-navigation/native
+expo gera apk/ipa
 
-se tiver usando expo:
-expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+eslinter / prettier
+autenticação JWT
+Styled components (react / react-native)
 
-navegação por
-abas (ifood)
-drawer(aba lateral)
-botões(links que vao pra outras paginas) (stacknavigator)
-
-npm install @react-navigation/stack
+redux/contextApi
+Graphql

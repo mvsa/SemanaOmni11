@@ -43,6 +43,25 @@ venha do usuário
 evitar erros 500, pois reflete que a aplicação nao soube como se comportar:
 importar erros no index.js do server
 
-npm install jest
+npm install jest -D
 npx jest --init
 npm test
+
+Criar BD para testes, para n alterar em ambiente produtivo
+alteração no knex file, criar nova conexão para testes
+
+npm install cross-env
+ao rodar o script de test vamos ter uma var de ambiente (setada la no package.json)
+alteração no connection.js
+
+
+Para fazer as requisições de test, chamando a api:
+npm install supertest -D   (apenas para dev)
+
+cria arquivo server js (se eu for testar o app vai subir na porta de prod, e n quero
+para isso dividi o  index.js em (app.js e server js, para apenas a aplicação normal chamar o server
+a de tests so vai chamar app))
+
+
+
+

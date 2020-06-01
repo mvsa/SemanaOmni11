@@ -16,7 +16,7 @@ routes.post('/ongs', celebrate({
     [Segments.BODY] : Joi.object().keys({
         name: Joi.string().required().min(2),
         email: Joi.string().required().email(),
-        whatsapp: Joi.number().required().min(10).max(11),
+        whatsapp: Joi.string().required().min(10).max(11), //precisa ser string pra usar min e max
         city: Joi.string().required(),
         uf: Joi.string().required().length(2),
     })   

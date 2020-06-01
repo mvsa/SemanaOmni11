@@ -11,8 +11,8 @@ app.use(express.json()); //informa ao app que vamos usar json no corpo das req
 app.use(routes);
 app.use(errors());
 
+module.exports = app;
 
-app.listen(3333);
 
 
 
